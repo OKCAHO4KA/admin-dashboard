@@ -58,7 +58,7 @@ class _DecktopBody extends StatelessWidget {
               children: [
                 const CustomTitle(),
                 const SizedBox(height: 50),
-                Expanded(child: child)
+                child
               ],
             ),
           ),
